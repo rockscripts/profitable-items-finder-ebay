@@ -1,0 +1,5 @@
+[22-May-2015 15:58:10 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'donjin'@'localhost' (using password: YES) in /home/latingan/public_html/smsapi/config.php on line 2
+[22-May-2015 15:59:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'donjin'@'localhost' (using password: YES) in /home/latingan/public_html/smsapi/config.php on line 2
+[22-May-2015 15:59:32 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'donjin'@'localhost' (using password: YES) in /home/latingan/public_html/smsapi/config.php on line 2
+[26-May-2015 16:10:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/latingan/public_html/smsapi/sendsms.php:41) in /home/latingan/public_html/smsapi/sendsms.php on line 68
+[26-May-2015 16:11:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/latingan/public_html/smsapi/sendsms.php:41) in /home/latingan/public_html/smsapi/sendsms.php on line 68

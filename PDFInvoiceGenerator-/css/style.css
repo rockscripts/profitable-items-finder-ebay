@@ -1,0 +1,91 @@
+body,html{margin:0; padding:0; font-family:verdana; font-size:14px;}
+
+/*General*/
+#header,header{height:100px; background:#85b909}
+#header .container, header .container{ margin:0 auto; width:980px; padding:5px;}
+#header .container h1, header .container h1{margin:0; padding:0; color:#FFF;top: 32px;
+position: absolute; display:inline-block;}
+#footer,footer{height:40px; background:#85b909}
+#container,.container{width:980px; margin:0 auto; min-height:730px;}
+.item_form{display:inline-block; margin:9px; float:left;}
+input{padding:5px; color:#917E7E; font-size:14px;}
+
+/*Style client data*/
+#customer_data legend{color:#900; font-weight:bold;}
+#customer_data{border:1px solid #900; margin:35px 0; display:block; clear:both;}
+#customer_data label{color:#900;}
+
+/*Style company data*/
+#company_data legend{color:#6275C0; font-weight:bold;}
+#company_data{border:1px solid #6275C0; margin:35px 0;}
+#company_data label{color:#6275C0;}
+
+/*Date and Vat*/
+.date,.tax,.shipping,.payment_m{float:left;margin-left:20px; }
+.invoce_num{float:left;}
+
+/*Buttons*/
+
+#addproduct{padding:10px 15px; background:#85b909; border:1px solid #030; color:#fff; font-weight:bold; text-decoration:none; float:right;}
+#generate{padding:10px 15px; background:#a50932; border:1px solid #030; color:white; font-weight:bold; text-decoration:none; float:right;}
+.delete{ font-size:18px; color:#900; font-weight:bold; text-decoration:none; cursor:pointer;}
+
+/*Products*/
+#list{width:980px; border:1px solid #030;}
+#list thead th{padding:10px; background:#85b909; color:#fff; margin:0;border-right:1px solid #030;border-bottom:1px solid #030;}
+#list tbody td{padding:10px; border-top:1px solid #CCC; border-right:1px solid #CCC;}
+
+/* Text products*/
+.text_input{width:158px;}
+.txt_type{width:15px; text-align:center;}
+.txt_name{width:98%;}
+.txt_quantity{width:25px; text-align:center;}
+.txt_price{width:60px; text-align:center;}
+
+/* Text date, vat, shipping*/
+.txt_date,.txt_invoce_num{width:90px; text-align:center;}
+.txt_tax{width:40px; text-align:center;}
+.txt_shipping{width:60px; text-align:center;}
+.txt_payment_m{width:120px; text-align:center;}
+
+/*Modal*/
+#modal{top: 0px;
+left: 0px;
+position: absolute;
+opacity:0.5;
+background: white;
+display:none;
+z-index:9999;}
+
+#modal_box{position:absolute;width:300px; height:200px; background:#fff; display:block; z-index:99999; display:none; border:2px solid #A9D52F; padding:10px;}
+.generate_txt{color: #949393;
+top: 30%;
+position: absolute;
+left: 50%;
+width: 140px;
+margin-left: -70px;
+font-size: 16px;
+}
+.loader{position: absolute;
+display: block;
+background: url(ajax-loader.gif) no-repeat;
+width: 140px;
+height: 15px;
+top: 55%;
+left: 50%;
+margin-left: -70px;}
+
+#modal_box h2{margin:0 0 10px 0; padding:0; color:#900; font-size:18px;}
+#modal_box span{font-size:12px; color:#666;}
+#modal_box span.error{color:#900;}
+
+#close_modal{
+float: right;
+background: red;
+color: white;
+display: block;
+padding: 5px;
+text-decoration: none;
+position: absolute;
+right: 0;
+top: 0;}

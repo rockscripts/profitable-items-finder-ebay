@@ -1,0 +1,4 @@
+.text_input{width:140px !important;}
+label{margin-left:10px;}
+.invoce_num label{margin:0;}
+.tax label, .date label,.shipping label,.payment_m label{margin-left:20px;}

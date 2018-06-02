@@ -1,0 +1,34 @@
+{
+    "name": "dts/ebay-sdk-finding",
+    "description": "An eBay SDK for PHP. Use the eBay Finding API in your PHP projects.",
+    "keywords": ["ebay", "api", "sdk"],
+    "homepage": "http://devbay.net/",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "David T. Sadler",
+            "email": "davidtsadler@googlemail.com",
+            "homepage": "http://davidtsadler.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/davidtsadler/ebay-sdk-finding/issues"
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "dts/ebay-sdk": "~0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DTS\\eBaySDK\\Finding\\": "src/",
+            "DTS\\eBaySDK\\Finding\\Mocks\\": "test/"
+        }
+    },
+    "suggest": {
+        "dts/ebay-sdk-php": "The SDK has moved to a new package name. The package you have installed, ebay-sdk-finding, is deprecated and will reach its end of life on the 6th December 2015."
+    }
+}

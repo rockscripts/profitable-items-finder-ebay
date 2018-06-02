@@ -1,0 +1,22 @@
+To generate a certificate on a Mac OS X:
+
+Log-in to the iPhone Developer Program Portal
+Choose App IDs from the menu on the right (or click here)
+Create an App ID without a wildcard. For example 3L223ZX9Y3.com.armiento.test
+Click the Configure link next to this App ID and then click on the button to start the wizard to generate a new Development Push SSL Certificate (Apple Documentation: Creating the SSL Certificate and Keys)
+Download this certificate and double click on aps_developer_identity.cer to import it into your Keychain
+Launch Keychain Assistant (located in Application, Utilities or search for it with Spotlight) and click on My Certificates on the left
+Expand Apple Development Push Services and select Apple Development Push Services AND your private key (just under Apple Development Push Services)
+Right-click and choose "Export 2 elements..." and save as server_certificates_bundle_sandbox.p12 (don't type a password).
+Open Terminal and change directory to location used to save server_certificates_bundle_sandbox.p12 and convert the PKCS12 certificate bundle into PEM format using this command (press enter when asked for Import Password):
+openssl pkcs12 -in server_certificates_bundle_sandbox.p12 -out server_certificates_bundle_sandbox.pem -nodes -clcerts
+Now you can use this PEM file as your certificate in ApnsPHP! 
+
+
+
+  677  openssl pkcs12 -in Certificates.p12 -out ck.pem -nodes -clcerts
+  681  \cp -rf ck.pem ..
+  684  rm /var/log/php/php_errors.log 
+  685  sudo service apache2 restart
+  688  vi /var/log/php/php_errors.log 
+

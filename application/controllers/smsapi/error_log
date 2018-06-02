@@ -1,0 +1,3 @@
+[22-May-2015 15:58:10 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'donjin'@'localhost' (using password: YES) in /home/latingan/public_html/smsapi/config.php on line 2
+[22-May-2015 15:59:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'donjin'@'localhost' (using password: YES) in /home/latingan/public_html/smsapi/config.php on line 2
+[22-May-2015 15:59:32 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'donjin'@'localhost' (using password: YES) in /home/latingan/public_html/smsapi/config.php on line 2

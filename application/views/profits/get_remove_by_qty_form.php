@@ -8,7 +8,7 @@
                             ?>
                             <p class="bg-warning"><?=$message?></p>
                             <?php
-                        endif;
+                        endif; 
                     endif;
                     ?>
 			

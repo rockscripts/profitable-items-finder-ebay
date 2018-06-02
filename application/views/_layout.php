@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Profits Items Finder on eBay and Mercado Libre</title>
+		<title>Profits Items Finder on eBay</title>
 		<meta name="description" content="description">
 		<meta name="author" content="Rockscripts">
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>

@@ -3,7 +3,7 @@
 Find profitable items filtered by seller or category on <a href='https://www.ebay.com/' target='_blank'>eBay</a> platform available for all eBay sites.
 </p>
 <p>
-<img src='template/devoops/img/eSeller.png'>
+<img src='template/devoops/img/eSellers.png'>
 </p>
 <p>
 <img src='template/devoops/img/eItems.png'>

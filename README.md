@@ -25,12 +25,12 @@ Find profitable items filtered by seller or category on <a href='https://www.eba
           <b>git clone https://github.com/rockscripts/profitable-items-finder-ebay.git</b>
         </li>
         <li>
-           Configurar la conexión de la base de datos, establecer el nombre de la base de datos, el usuario, la contraseña y el host <b>/application/config/database.php</b>
+          Configure database details (localhost,database name, username and password) in: <b>/application/config/database.php</b>
         </li>
     </ol>
 </p>
 <p>
-<b>¡Felicitaciones! Escuche la aplicación escribiendo su dominio en la barra de direcciones preferida del navegador web.</b>
+<b>¡Enjoy it!</b>
 </p>
 
 <h1>ICONOS</h1>

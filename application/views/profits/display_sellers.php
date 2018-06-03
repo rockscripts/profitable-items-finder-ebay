@@ -21,7 +21,7 @@
 			
 			<div class="box-content">
 			
-				<h4 class="page-header">Items with profit</h4>
+				<h4 class="page-header">Sellers List</h4>
 				<b>Import Listings By:  </b><span id="init_import" class='btn btn-primary button-top'>Seller</span> <span id="init_import" class='btn btn-info button-top'>Category</span>
 			
 					</div>

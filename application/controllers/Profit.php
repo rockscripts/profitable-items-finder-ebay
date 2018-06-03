@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 error_reporting(true);
+setlocale(LC_MONETARY,"en_GB");
+setlocale(LC_ALL, 'en_GB');
 require_once 'ebaycalls/FindingAPI/vendor/autoload.php';
 require_once 'ebaycalls/GetItemTransactions.php';
 require_once 'ebaycalls/GetItem.php';
@@ -33,7 +35,6 @@ class Profit extends CI_Controller {
 
     public function list_sellers()
     {
-        $this->get_item('113001089852');
         $data["profitable_sellers"]= $this->Importer->get_profitable_sellers(); 
         $this->template->load('profits/display_sellers',$data);	
     }

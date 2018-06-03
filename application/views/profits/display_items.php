@@ -108,8 +108,8 @@
 			 $full_comission = 	number_format($platform_commision + $payment_commision,2,'.','');;
 			 $total_per_sale =  number_format($profitable_item->StartPrice - $full_comission,2,'.','');;
 			?>
-			<a href="javascript:void();" class="open_fees" currency="<?=$profitable_item->Currency?>" platform_commision="<?=$platform_commision?>" payment_commision="<?=$payment_commision?>"  full_comission="<?=$full_comission?>" total_per_sale="<?=$total_per_sale?>"><?=$profitable_item->StartPrice?></a></td>
-			<td class="totalMoneyPurchased-<?=$profitable_item->itemID?>"><?=$profitable_item->totalMoneyPurchased?></td>
+			<a href="javascript:void();" class="open_fees" currency="<?=$profitable_item->Currency?>" platform_commision="<?=$platform_commision?>" payment_commision="<?=$payment_commision?>"  full_comission="<?=$full_comission?>" total_per_sale="<?=$total_per_sale?>"><?php echo money_format('%n',$profitable_item->StartPrice);?></a></td>
+			<td class="totalMoneyPurchased-<?=$profitable_item->itemID?>"><?php echo money_format('%n',$profitable_item->totalMoneyPurchased)?></td>
             <td>
 			 <select id="actions_item" item-id="<?=$profitable_item->itemID?>">
 				<option>Actions</option>

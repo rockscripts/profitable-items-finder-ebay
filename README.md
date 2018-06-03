@@ -3,9 +3,11 @@
 Find profitable items filtered by seller or category on <a href='https://www.ebay.com/' target='_blank'>eBay</a> platform available for all eBay sites.
 </p>
 <p>
-<img src='template/devoops/img/MLarticulos.png'>
+<img src='template/devoops/img/eSeller.png'>
 </p>
-
+<p>
+<img src='template/devoops/img/eItems.png'>
+</p>
 <h1>INSTALLING APPLICATION</h1>
 <p>
     This application is web based and has been written with codeigniter framework. You must have a web server running in your server something or a live server.
